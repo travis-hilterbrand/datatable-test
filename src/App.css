@@ -3,7 +3,7 @@ body {
 }
 
 .App {
-  width: 600px;
+  width: 800px;
   overflow: hidden;
   border: 1px solid red;
 }

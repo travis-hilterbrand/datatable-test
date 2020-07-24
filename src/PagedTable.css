@@ -1,0 +1,24 @@
+.f9-paged-grid {
+  display: flex;
+}
+.f9-paged-grid-header-cell {
+  background: #ddd;
+  border-bottom: 1px solid black;
+}
+
+.f9-paged-grid-cell {
+  background: #eee;
+}
+.f9-paged-grid-cell.hover {
+  background: #ddd;
+}
+
+/*
+  <row>
+    <Grid /><Grid /><Grid />
+  </row>
+  <ScrollSync />
+
+  hscroll is tied to middle grid
+  vscroll is tied (using ScrollSync) to all 3 grids
+*/

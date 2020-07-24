@@ -2,11 +2,14 @@ import React from 'react';
 
 import './App.css';
 import DataTable from './DataTable';
+import PagedTable from './PagedTable';
 
 function App() {
+  const showData = false;
   return (
     <div className="App">
-      <DataTable />
+      {showData && <DataTable />}
+      {!showData && <PagedTable />}
     </div>
   );
 }
