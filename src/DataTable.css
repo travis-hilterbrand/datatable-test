@@ -1,0 +1,25 @@
+.f9-grid-header-cell {
+  border-bottom: 1px solid black;
+}
+.f9-grid-header-cell.docked {
+  border-right: 1px solid black;
+}
+
+.f9-grid-cell.docked {
+  border-right: 1px solid black;
+}
+.f9-grid-cell.hover {
+  background: #ddd;
+}
+
+/*
+  <row>
+    <Grid /><Grid />
+  </row>
+  <row>
+    <Grid /><Grid rightScroll bottomScroll />
+  </row>
+
+  hscroll is tied to right grids
+  vscroll is tied to bottom grids
+*/
